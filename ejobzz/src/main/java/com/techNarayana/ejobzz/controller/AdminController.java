@@ -49,7 +49,7 @@ public class AdminController {
 
 			String username=request.getParameter("username");
 			String password=request.getParameter("password");
-			System.out.println("ADMIN");
+			System.out.println("ADMIN1");
 			UserDTO userDto=new UserDTO();
 			userDto.setUsername(username);
 			userDto.setPassword(password);
